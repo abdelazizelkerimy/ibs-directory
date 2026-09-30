@@ -2,38 +2,13 @@
 console.log('%c IBS app.js — الإصدار 4 (تم التحميل) ','background:#EA580C;color:#fff;padding:2px 8px;border-radius:4px');
 
 /* ═══ 1) الإعدادات — عدّل هنا فقط ═══ */
-
-// const FIREBASE_CONFIG={ apiKey:"", authDomain:"", projectId:"", storageBucket:"", messagingSenderId:"", appId:"" };
-
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyAkX_u__0QvGZCwynB9uWLR1SOSmH77uUA",
-  authDomain: "lbs-directory.firebaseapp.com",
-  projectId: "lbs-directory",
-  storageBucket: "lbs-directory.firebasestorage.app",
-  messagingSenderId: "417372592003",
-  appId: "1:417372592003:web:af23362e6b2d92941f08b6"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-
-
-
-
-
-
+const FIREBASE_CONFIG={ apiKey:"AIzaSyAkX_u__0QvGZCwynB9uWLR1SOSmH77uUA", authDomain:"lbs-directory.firebaseapp.com", projectId:"lbs-directory", storageBucket:"lbs-directory.firebasestorage.ap", messagingSenderId:"417372592003", appId:"1:417372592003:web:af23362e6b2d92941f08b6" };
 const LOGO_URL="https://z-cdn-media.chatglm.cn/files/d3e13fb7-a117-4bf4-bfc3-0905964a3295.png";
-const SCHOOL_AR="مدارس التعلم ثنائي اللغة للتعليم";
+const SCHOOL_AR="مدارس بيلينغوال للتعليم";
 const SCHOOL_EN="Bilingual Learning Schools";
 const SESSION_HOURS=12;
 const PBKDF2_ITER=100000;
-// const CONFIG_OK=!!FIREBASE_CONFIG.apiKey&&!/ضع|YOUR|xxx/i.test(FIREBASE_CONFIG.apiKey);
+const CONFIG_OK=!!FIREBASE_CONFIG.apiKey&&!/ضع|YOUR|xxx/i.test(FIREBASE_CONFIG.apiKey);
 
 /* ═══ 2) الهيكل ═══ */
 const SECTIONS={
